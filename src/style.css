@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: url(./assets/satoru-gojo-ai-art-5120x2880-14967.jpg) no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover ;
+    
+}
+
+.container{
+    /* background-color: green; */
+    width: 420px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    color: aliceblue;
+     padding: 30px 40px;
+    backdrop-filter: blur(16px);
+    border-radius: 15px;
+  transition: 1s;  
+
+}
+.container:hover{
+    border-radius: 15px;
+ box-shadow: 0px 20px 30px rgb(224, 6, 6);
+ transition: 1 s;  
+}
+.container h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.container .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+
+}
+
+.container .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0px 15px;
+
+}
+
+.remember-forgot label input{
+    color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+ .container .button {
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: 4px;
+    border-radius: 5px;
+    box-decoration-break: 0px 0px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    transition: 1s;
+ }
+ .container .button:hover{
+    color: white;
+    background-color: red;
+    border-radius: 25px;
+ box-shadow: 0px 8px 15px rgb(213, 9, 9);
+ transition: 1s;  
+ }
+
+ .container .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px  0px 20px;
+    line-height: 20px;
+  }
+
+ 
+  
+  #anchor{
+     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    background-color: black;
+    border : 2px solid black;
+    color: white;
+    transition: 0.5s;
+    }
+ 
+ #anchor:hover{
+    color:  red;
+    width: 1;
+     box-shadow:  0px 10px 20px red;
+  font: bolder;
+  border-radius: 20%;
+  transition: 0.5s
+ }
+ nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent;
+    backdrop-filter: blur(18px);
+    padding: 15px;
+}
+
+nav > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(248, 240, 226);
+ }
+
+li:hover{
+text-decoration: underline;  
+}
+#sign{
+    height: 30px;
+    width: 150px;
+    border-radius: 30px 20px 30px;
+    transition: 1s;
+    font-size: large;
+}
+#sign:hover{
+    font-weight: bolder;
+    box-shadow: 0px 19px 28px red;
+    height: 39px;
+    width: 180px;
+    transition: 1s;
+    border-radius: 20px 40px 20px ;
+    background: red;
+    color: white;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 20px; /* Adjust spacing between links */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+    color: red; /* Change the text color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
