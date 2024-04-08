@@ -139,7 +139,7 @@ body{
     z-index: 1000;
     background: transparent;
     backdrop-filter: blur(18px);
-    padding: 15px;
+    padding: 10px;
 }
 
 nav > div {
